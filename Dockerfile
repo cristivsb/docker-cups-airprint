@@ -57,6 +57,10 @@ RUN apt-get -y install \
 # TODO: really needed?
 #COPY mime/ /etc/cups/mime/
 
+#Copy 4Barcode Linux Drivers and install them
+COPY custom/4BARCODE /srv/4BARCODE
+RUN /srv/4BARCODE
+
 # setup airprint scripts
 COPY airprint/ /opt/airprint/
 
