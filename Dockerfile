@@ -71,7 +71,7 @@ HEALTHCHECK --interval=10s --timeout=3s CMD /healthcheck.sh
 
 ENV TZ="GMT" \
     CUPS_ADMIN_USER="admin" \
-    CUPS_ADMIN_PASSWORD="secr3t" \
+    CUPS_ADMIN_PASSWORD="Cristi2020@" \
     CUPS_WEBINTERFACE="yes" \
     CUPS_SHARE_PRINTERS="yes" \
     CUPS_REMOTE_ADMIN="yes" \
